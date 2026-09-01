@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-09-01T01:58:53.322Z",
+  "threshold": 0.9,
+  "summary": {
+    "total": 1,
+    "flagged": 1,
+    "passed": 0,
+    "unscored": 0
+  },
+  "pages": [
+    {
+      "path": "index",
+      "url": "https://www.covista.com/",
+      "score": 0.8922,
+      "status": "flag"
+    }
+  ]
+}

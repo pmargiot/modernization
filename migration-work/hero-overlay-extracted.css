@@ -1,0 +1,35 @@
+/* Block: hero-overlay -- CSS extracted from source computed styles (1440px viewport) */
+/* Source block rect: 1440x700 ; base bg rgb(0,0,0) ; item bg rgb(0,0,0) */
+/* Overlay gradient: linear-gradient(92.51deg, rgba(0,0,0,0.5) 25.26%, rgba(0,0,0,0.02) 61.29%, rgba(0,0,0,0) 95.23%) */
+/* Content wrapper: padding 80px 24px; max-width 1400px; margin 0 20px; align top-left */
+
+.hero-overlay h1 {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: acumin-pro-wide-medium, Helvetica, Arial, sans-serif;
+  line-height: 57.6px; /* 1.2 */
+  letter-spacing: -0.72px; /* -0.015em */
+  color: rgb(255, 249, 245);
+  text-align: left;
+  /* rect 505x230 top:80 left:44 */
+}
+
+.hero-overlay a {
+  color: rgb(0, 0, 0);
+  background-color: rgb(201, 211, 204); /* --button-primary-bg */
+  font-size: 15px;
+  font-weight: 500;
+  font-family: acumin-pro-wide-medium, Helvetica, Arial, sans-serif;
+  letter-spacing: -0.27px;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: inline-block;
+  /* rect 102x40 top:372 left:44 */
+}
+
+.hero-overlay img {
+  object-fit: cover;
+  object-position: 50% 0%;
+  width: 780px;   /* fills container */
+  height: 442px;  /* aspect maintained via cover */
+}

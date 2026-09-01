@@ -1,0 +1,8 @@
+/* cards-stats — raw source computed styles (covista.com) */
+/* number (.e-stat, div) */
+.number { font-size:64px; font-weight:400; font-family:albiona-light,Rockwell,"Josefin Slab",serif; line-height:64px; letter-spacing:-0.96px; color:rgb(27,73,41); margin:0 0 20px; }
+/* label (p) */
+.label { font-size:18px; font-weight:300; font-family:acumin-pro-wide-light,Helvetica,Arial,sans-serif; line-height:29.88px; letter-spacing:-0.27px; color:rgb(27,73,41); }
+/* tile: bg rgb(255,249,245); inner padding 32px; no border/radius/shadow */
+/* grid: display grid; desktop 3col; row-gap 24px column-gap 16px; mobile stack */
+/* section overlap: margin-top -80px over hero (section-level) */

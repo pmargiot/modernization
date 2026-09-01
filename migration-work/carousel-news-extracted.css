@@ -1,0 +1,56 @@
+/* Block: carousel-news -- CSS extracted from source computed styles (covista.com) */
+/* Structure: horizontal card scroller. Each card = 1:1 image + eyebrow tag line + serif headline link. */
+
+/* card track */
+.carousel-news .field-content { /* scroll track */ }
+
+/* card (.view--container) */
+.carousel-news-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;              /* between image and content */
+  width: 364px;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* gap between cards */
+/* cardGap: 20px */
+
+/* image */
+.carousel-news-slide-image img {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  width: 364px;
+  height: 364px;
+  border-radius: 0;
+}
+
+/* eyebrow (.view-tag-field) */
+.carousel-news-slide-content p {
+  font-size: 14px;
+  font-family: acumin-pro-wide-reg, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: rgb(130, 64, 76);      /* == var(--link-color) */
+  letter-spacing: -0.27px;
+  line-height: 14px;
+  margin: 0;
+}
+
+/* headline (a inside h3) */
+.carousel-news-slide-content h3,
+.carousel-news-slide-content h3 a {
+  font-size: 24px;
+  font-family: albiona-light, Rockwell, "Josefin Slab", serif;
+  font-weight: 400;
+  color: rgb(0, 0, 0);          /* == var(--text-color) */
+  line-height: 28.8px;          /* 1.2 */
+  letter-spacing: -0.27px;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* More stories = secondary button */
+/* bg rgb(215,181,185) color #000 font acumin-pro-wide-medium 15px/500 padding 5px 16px radius 0 */
+
+/* Prev/Next = slick arrows: thin (~12x2), black, transparent bg, positioned top-right above cards */

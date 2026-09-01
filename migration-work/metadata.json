@@ -1,0 +1,483 @@
+{
+  "url": "https://www.covista.com/",
+  "source": "local",
+  "detection": {
+    "isError": false,
+    "isBotProtection": false
+  },
+  "timestamp": "2026-09-01T01:28:17.740Z",
+  "paths": {
+    "documentPath": "/index",
+    "htmlFilePath": "/index.plain.html",
+    "mdFilePath": "/index.md",
+    "dirPath": "",
+    "filename": "index"
+  },
+  "screenshot": "migration-work/screenshot.png",
+  "html": {
+    "filePath": "migration-work/cleaned.html",
+    "size": 523754
+  },
+  "metadata": {
+    "title": "Home | Covista",
+    "description": "Covista, formally Adtalem, is America's largest healthcare educator, training 24K+ healthcare graduates annually and expanding access to healthcare careers worldwide.",
+    "og:site_name": "Covista",
+    "og:type": "website",
+    "og:url": "https://www.covista.com/home",
+    "og:title": "Home",
+    "facebook-domain-verification": "ig0jumm5h1thuxe8hyk11ehzynn8pr",
+    "Generator": "Drupal 10 (https://www.drupal.org)",
+    "MobileOptimized": "width",
+    "HandheldFriendly": "true",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "canonical": "https://www.covista.com/",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.covista.com/#webpage",
+          "url": "https://www.covista.com/",
+          "name": "Home | Covista",
+          "description": "Covista is America's largest healthcare educator, training 24,000+ professionals annually and expanding access to healthcare careers to address workforce needs.",
+          "isPartOf": {
+            "@id": "https://www.covista.com/#website"
+          },
+          "about": {
+            "@id": "https://www.covista.com/#organization"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.covista.com/"
+              }
+            ]
+          },
+          "significantLink": [
+            "https://www.covista.com/our-story",
+            "https://www.covista.com/our-institutions/institutions",
+            "https://www.covista.com/research",
+            "https://www.covista.com/our-impact",
+            "https://www.covista.com/join-us",
+            "https://investors.covista.com",
+            "https://www.covista.com/news-insights"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.covista.com/#website",
+          "url": "https://www.covista.com",
+          "name": "Covista",
+          "description": "America's largest healthcare educator, graduating more than 24,000 healthcare professionals annually through five accredited institutions.",
+          "publisher": {
+            "@id": "https://www.covista.com/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.covista.com/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.covista.com/#organization",
+          "name": "Covista",
+          "alternateName": [
+            "Covista Inc.",
+            "Adtalem Global Education",
+            "Adtalem"
+          ],
+          "legalName": "Covista Inc.",
+          "url": "https://www.covista.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.covista.com/themes/custom/cv_base/images/svg/cv_logo.svg",
+            "contentUrl": "https://www.covista.com/themes/custom/cv_base/images/svg/cv_logo.svg"
+          },
+          "description": "Covista is America's largest healthcare educator, graduating more than 24,000 healthcare professionals annually through five accredited institutions. Covista expands access to healthcare careers for working adults, career changers, and non-traditional students, and delivers workforce solutions at scale to address the U.S. healthcare workforce shortage. Covista was formerly known as Adtalem Global Education.",
+          "slogan": "The Talent to Transform Healthcare",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "233 S. Wacker Drive, Suite 800",
+            "addressLocality": "Chicago",
+            "addressRegion": "IL",
+            "postalCode": "60606",
+            "addressCountry": "US"
+          },
+          "numberOfEmployees": {
+            "@type": "QuantitativeValue",
+            "value": 10000,
+            "unitText": "faculty and colleagues"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+          },
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Stock Ticker Symbol",
+              "value": "CVSA",
+              "description": "Covista Inc. trades on the New York Stock Exchange under the ticker symbol CVSA."
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Total Alumni",
+              "value": 385000,
+              "description": "Total alumni across all five Covista institutions."
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Active Healthcare Professional Alumni",
+              "value": 290000,
+              "description": "290,000 Covista alumni are currently practicing as healthcare professionals worldwide."
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Annual Healthcare Graduates",
+              "value": 24000,
+              "description": "Covista graduates more than 24,000 healthcare professionals annually across its five institutions."
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Total Active Students",
+              "value": 100000,
+              "description": "Covista's five institutions collectively serve more than 100,000 students."
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Number of Accredited Institutions",
+              "value": 5,
+              "description": "Covista operates five accredited institutions: American University of the Caribbean School of Medicine, Chamberlain University, Ross University School of Medicine, Ross University School of Veterinary Medicine, and Walden University."
+            }
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Media and Press Inquiries",
+            "email": "covistamedia@covista.com",
+            "url": "https://www.covista.com/news-insights/media-resources"
+          },
+          "subOrganization": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "American University of the Caribbean School of Medicine",
+              "alternateName": "AUC",
+              "url": "https://www.aucmed.edu/"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Chamberlain University",
+              "url": "https://www.chamberlain.edu/"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Ross University School of Medicine",
+              "alternateName": "Ross Med",
+              "url": "https://medical.rossu.edu/"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Ross University School of Veterinary Medicine",
+              "alternateName": "Ross Vet",
+              "url": "https://veterinary.rossu.edu/"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Walden University",
+              "url": "https://www.waldenu.edu/"
+            }
+          ],
+          "founder": {
+            "@type": "Person",
+            "name": "Steve Beard",
+            "jobTitle": "Chairman and CEO"
+          },
+          "knowsAbout": [
+            "Healthcare education",
+            "Medical school education",
+            "Nursing education",
+            "Veterinary medicine education",
+            "Healthcare workforce development",
+            "AI-powered clinical education",
+            "Adult and non-traditional higher education"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/company/covista-official/",
+            "https://www.instagram.com/lifeatcovista_",
+            "https://www.youtube.com/channel/UCCcTofNvWpslEydQb-zEU9w",
+            "https://investors.covista.com/overview/default.aspx"
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.covista.com/#hero-stats",
+          "name": "Covista Homepage Headline Statistics",
+          "description": "The three headline metrics featured on the Covista homepage representing the scale of Covista's healthcare education impact.",
+          "url": "https://www.covista.com/",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "5 post-secondary institutions",
+              "description": "Covista operates five accredited post-secondary institutions delivering healthcare education across medicine, nursing, veterinary medicine, behavioral health, and allied health disciplines."
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24,000+ healthcare graduates a year",
+              "description": "Covista's five institutions collectively graduate more than 24,000 healthcare professionals annually, making Covista America's largest healthcare educator."
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "290,000+ healthcare alumni practicing worldwide",
+              "description": "More than 290,000 Covista alumni are currently practicing as healthcare professionals in communities worldwide."
+            }
+          ]
+        },
+        {
+          "@type": "Statement",
+          "@id": "https://www.covista.com/#open-doors-statement",
+          "name": "Covista Open Doors — Impact Commitment",
+          "text": "America faces a healthcare workforce crisis that threatens access to care for millions. Through Covista Open Doors—a multi-year impact commitment to build and sustain the healthcare workforce—Covista is opening doors for current and future healthcare workers during the moments that matter most.",
+          "about": {
+            "@id": "https://www.covista.com/#organization"
+          },
+          "url": "https://www.covista.com/our-impact"
+        },
+        {
+          "@type": "Statement",
+          "@id": "https://www.covista.com/#careers-statement",
+          "name": "Covista Careers Value Proposition",
+          "text": "Covista believes doing exceptional work and making a meaningful difference for students and society aren't separate goals—they are one and the same. Careers at Covista blend performance and purpose.",
+          "about": {
+            "@id": "https://www.covista.com/#organization"
+          },
+          "url": "https://www.covista.com/join-us"
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.covista.com/#featured-news",
+          "name": "Covista Homepage Featured News Stories",
+          "description": "The six most recent news stories and features featured on the Covista homepage.",
+          "url": "https://www.covista.com/news-insights",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "NewsArticle",
+                "headline": "Covista's 2026 Combined First-Time Residency Attainment Rate: AUC and Ross Med Graduates Match",
+                "url": "https://www.covista.com/news/covistas-2026-combined-first-time-residency-attainment-rate-auc-and-ross-med-graduates-match",
+                "publisher": {
+                  "@id": "https://www.covista.com/#organization"
+                },
+                "keywords": [
+                  "AUC",
+                  "Ross Med",
+                  "residency attainment",
+                  "NRMP",
+                  "medical graduates",
+                  "2026"
+                ]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "NewsArticle",
+                "headline": "Covista's Walden University Professor Dr. Melissa Mork: Prescribing Mental Health Awareness in Healthcare",
+                "url": "https://www.covista.com/news/covistas-walden-university-professor-dr.-melissa-mork-prescribing-mental-health-awareness-in-healthcare",
+                "publisher": {
+                  "@id": "https://www.covista.com/#organization"
+                },
+                "keywords": [
+                  "Walden University",
+                  "mental health",
+                  "healthcare education",
+                  "faculty spotlight"
+                ]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "NewsArticle",
+                "headline": "Chairman and CEO Steve Beard in Fortune: Yale Asked the Right Question. Now the Rest of Higher Education Owes an Answer.",
+                "url": "https://www.covista.com/news/chairman-and-ceo-steve-beard-in-fortune-yale-asked-the-right-question.-now-the-rest-of-higher-education-owes-an-answer.",
+                "publisher": {
+                  "@id": "https://www.covista.com/#organization"
+                },
+                "keywords": [
+                  "Steve Beard",
+                  "Fortune",
+                  "higher education",
+                  "healthcare access",
+                  "CEO thought leadership"
+                ]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "NewsArticle",
+                "headline": "AI Is Ready. Is the Healthcare Workforce?",
+                "url": "https://www.covista.com/news/ai-is-ready.-is-the-healthcare-workforce",
+                "publisher": {
+                  "@id": "https://www.covista.com/#organization"
+                },
+                "keywords": [
+                  "AI in healthcare",
+                  "Google Cloud",
+                  "AI credentials",
+                  "healthcare workforce readiness"
+                ]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "NewsArticle",
+                "headline": "Everywhere America Needs a Doctor—Our Graduates Show Up",
+                "url": "https://www.covista.com/news/everywhere-america-needs-a-doctor-our-graduates-show-up",
+                "publisher": {
+                  "@id": "https://www.covista.com/#organization"
+                },
+                "keywords": [
+                  "physician shortage",
+                  "expanding access",
+                  "rural healthcare",
+                  "medical graduates"
+                ]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "NewsArticle",
+                "headline": "Covista at Punchbowl 2026: AI, Workforce & Health Policy",
+                "url": "https://www.covista.com/news/covista-at-punchbowl-2026-ai-workforce-health-policy",
+                "publisher": {
+                  "@id": "https://www.covista.com/#organization"
+                },
+                "keywords": [
+                  "AI healthcare policy",
+                  "rural healthcare",
+                  "healthcare workforce policy",
+                  "Punchbowl 2026"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.covista.com/#faq",
+          "name": "Covista — Frequently Asked Questions",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Covista?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Covista is America's largest healthcare educator, graduating more than 24,000 healthcare professionals annually through five accredited institutions: American University of the Caribbean School of Medicine, Chamberlain University, Ross University School of Medicine, Ross University School of Veterinary Medicine, and Walden University. Covista expands access to healthcare careers for working adults, career changers, and non-traditional students, and delivers workforce solutions at scale to address the U.S. healthcare workforce shortage. Covista was formerly known as Adtalem Global Education and rebranded in February 2026."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What institutions does Covista operate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Covista operates five accredited institutions: American University of the Caribbean School of Medicine (AUC), which awards the Doctor of Medicine (MD); Chamberlain University, the largest school of nursing in the United States; Ross University School of Medicine, one of the largest providers of MDs to the U.S. health system; Ross University School of Veterinary Medicine, the #1 provider of DVM graduates in the United States; and Walden University, an online university serving more than 50,000 learners in nursing, behavioral health, and related fields."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many students and alumni does Covista have?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Covista's five institutions collectively serve more than 100,000 active students and have a combined alumni base of 385,000 graduates. Of those, more than 290,000 are currently practicing as healthcare professionals worldwide. Covista graduates more than 24,000 healthcare professionals annually."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is Covista Open Doors?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Covista Open Doors is Covista's multi-year impact commitment to build and sustain the U.S. healthcare workforce. It is organized around three pillars: Discover (inspiring people to pursue healthcare careers), Achieve (removing financial barriers to graduation), and Thrive (supporting the mental health and wellbeing of healthcare workers). Covista Open Doors is delivered through the Covista Foundation and partnerships with organizations including the Dr. Lorna Breen Heroes' Foundation, NAF, and the Schwartz Center for Compassionate Healthcare."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Covista publicly traded?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Covista Inc. trades on the New York Stock Exchange under the ticker symbol CVSA. Investor relations information, including financial results, stock data, and press releases, is available at investors.covista.com."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the Covista Care Capacity Monitor?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Covista Care Capacity Monitor is Covista's flagship healthcare workforce research initiative, fielded by Gallup. It explores workforce gaps across all 50 U.S. states and healthcare specialties, uncovering what is driving shortages and where opportunities exist to expand care capacity. Key findings include 8.4 million open healthcare positions annually, 73% of healthcare executives reporting that staffing shortages negatively affect care quality, and 85% of rural healthcare leaders citing local talent shortages as a major hiring barrier. The full research is available at covista.com/research."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What was Covista previously called?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Covista was formerly known as Adtalem Global Education. The company rebranded to Covista on February 5, 2026. Press releases, financial reports, and other materials published before that date reference the company under its former name, Adtalem Global Education or Adtalem. Covista and Adtalem Global Education refer to the same organization."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "images": {
+    "count": 19,
+    "mapping": {
+      "https://www.covista.com/themes/custom/cv_base/cv-logo.png": "./images/e3651e1378def4e9299c63715720a207.png",
+      "https://www.covista.com/themes/custom/cv_base/images/svg/cv_logo.svg": "./images/0287fd454d8dc1013b4df199a0991d90.png",
+      "https://www.covista.com/themes/custom/cv_base/images/svg/cv_logo_mark.svg": "./images/3aee7495c06b39d41af9d0e63bfdf10b.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2025-12/rusm_vertical_logo.webp?itok=RnYY3tx3": "./images/efdfe696b03046c14a0b72cdbf5f6bfc.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2025-12/auc_vertical_logo.webp?itok=AKoE9qC5": "./images/556587b3b35de334228b1003a1a83d55.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2025-12/rusvm_vertical_logo.webp?itok=UsHToh9n": "./images/e5284dd9886a6e975e97a951a20a62f7.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2026-01/home_page_stock_information.webp?itok=sTZlTOm3": "./images/2af5c25bb114193c7de4a9d5d7f6b1cf.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2025-12/chamberlain_university_vertical_logo.webp?itok=4RlvIdnL": "./images/8928d57510a69dc5c3249b588bf37768.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2025-12/walden_logo_vertical_cyan_1.webp?itok=d3iSbzyY": "./images/a98ec4ea2c87e1069b95fd93990a2c6d.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2025-12/rectangle_4.webp?itok=nBsGbfWX": "./images/0795ce70db94e0f3a563e939126a626c.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_1_1_crop_md/public/2026-01/home_page_supporting_healthcare_workers_nationwide.webp?itok=5-001bQG": "./images/f50589cafc453c261e5bb8fe4d625446.png",
+      "https://adservice.google.com/ddm/fls/z/dc_pre=CMCJy6adzJYDFVIvIQQdO1gzSg;src=16415255;type=covis0;cat=covis0;rcb=7;ord=7077891155244;npa=0;auiddc=*;u1=%2F;uaa=x86;uab=64;uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe68s1v9242842105z879782031za20gzb79782031zd79782031xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120420415;epver=2;dc_random=1788226089_x7nhITrUjmTY4GH1kB5AnWDfpQ2_x2VJNw;_dc_test=1;~oref=https%3A%2F%2Fwww.covista.com%2F": "./images/4126e1fdac745520dcbb355dd898552a.png",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_default_md/public/2026-07/alumni_web.jpg?itok=-i5dyIv1": "./images/4a9d4b16d8fd4a8f2f7a95c1aa81c125.jpg",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_default_md/public/2026-07/web_sb_newsletter_1550x665.jpg?itok=TtwyBuif": "./images/aa2eaeff55b754a265299007c1aedfb6.jpg",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_default_md/public/2026-07/cccm_header_nurse.jpg?itok=iikAHCz-": "./images/0374a684ae5954bef38ce14ea8f4dd15.jpg",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_default_md/public/2026-07/doctor_and_two_nurses_with_patient.jpg?itok=1bE4jRkJ": "./images/435f11bf64f99f46aa24a0bf1a79e1e6.jpg",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_default_md/public/2026-07/covista-community-rounds-event-cropped.jpg?itok=RMCIt16J": "./images/d68583634afac66d079dd1e0904b3ed6.jpg",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_default_md/public/2026-07/s.beard_mckinsey_inverview.jpg?itok=RiCoQV1P": "./images/7be85a9934036b5eb441682ddf68c396.jpg",
+      "https://www.covista.com/sites/g/files/krcnkv471/files/styles/atge_no_style_lg/public/2026-01/adtalem_projsterling_healthcare_stock_getty124205743.webp?itok=HQ7miaWm": "./images/7bdce60a20f3156191ba3eb535b32f0d.png"
+    },
+    "stats": {
+      "total": 23,
+      "converted": 13,
+      "skipped": 6,
+      "failed": 4,
+      "tooLarge": 0,
+      "limitReached": 0
+    }
+  }
+}

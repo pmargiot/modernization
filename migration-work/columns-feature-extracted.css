@@ -1,0 +1,56 @@
+/* Block: columns-feature — CSS extracted from source computed styles (covista.com) */
+/* Two instances: "Supporting healthcare workers" (image left) and "Careers..." (image right, c-card--reverse-cols). */
+
+/* block: full-bleed, no max-width, transparent bg */
+.columns-feature { background: transparent; padding: 0; margin: 0; }
+
+/* row (inner flex, desktop) */
+.columns-feature > div {
+  display: flex;              /* source .c-card__item */
+  flex-direction: row;       /* reverse instance: row-reverse */
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* media column ~570px @1440 (≈40%), flex 1 0 auto in source */
+.columns-feature-img-col { /* width ~570px; img object-fit cover */ }
+
+/* content column ~871px, padding 0 195px 0 133px (reverse: 0 133 0 195) */
+.columns-feature-content { display: flex; flex-direction: column; justify-content: center; }
+
+.columns-feature h2 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: acumin-pro-wide-medium, Helvetica, Arial, sans-serif;
+  line-height: 48px;          /* 1.2 */
+  letter-spacing: -0.6px;
+  color: rgb(0, 0, 0);
+}
+
+.columns-feature p {
+  font-size: 18px;
+  font-family: acumin-pro-wide-light, Helvetica, Arial, sans-serif;
+  line-height: 29.88px;       /* 1.66 */
+  color: rgb(0, 0, 0);
+  margin: 18px 0 0;
+}
+
+/* CTA — primary button palette (global a.button already provides this) */
+.columns-feature a.button:any-link {
+  background-color: rgb(201, 211, 204); /* --button-primary-bg */
+  color: rgb(0, 0, 0);
+  padding: 10px 24px;         /* source visual pad; base link was 5px 16px pre-button-decoration */
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.27px;
+}
+/* NOTE (site-wide, not block-scoped): source primary CTA appends a 40x40
+   rgb(71,107,82) square with a white → arrow via ::after. Belongs in global button styling. */
+
+.columns-feature img {
+  object-fit: cover;
+  width: 100%;
+  /* rendered media 570x400 => aspect-ratio 570/400 */
+}

@@ -1,0 +1,31 @@
+{
+  "fonts": {
+    "heading": { "family": "acumin-pro-wide-medium", "familySet": "acumin-pro-wide-medium, Helvetica, Arial, sans-serif" },
+    "body": { "family": "acumin-pro-wide-light", "familySet": "acumin-pro-wide-light, Helvetica, Arial, sans-serif" },
+    "headingSizes": {
+      "xxl": { "mobile": "36px", "desktop": "48px" },
+      "xl": { "mobile": "28px", "desktop": "40px" },
+      "l": { "mobile": "24px", "desktop": "24px" },
+      "m": { "mobile": "20px", "desktop": "22px" },
+      "s": { "mobile": "18px", "desktop": "20px" },
+      "xs": { "mobile": "16px", "desktop": "18px" }
+    },
+    "sources": { "typekit": "owr0vjc", "googleFonts": [] }
+  },
+  "colors": {
+    "background": "rgb(255, 255, 255)",
+    "text": "rgb(0, 0, 0)",
+    "link": "rgb(130, 64, 76)",
+    "linkHover": "rgb(71, 107, 82)",
+    "secondary": "rgb(255, 249, 245)",
+    "accent": "rgb(230, 213, 215)",
+    "dark": "rgb(0, 0, 0)"
+  },
+  "buttons": {
+    "primary": { "bg": "rgb(201, 211, 204)", "color": "rgb(0, 0, 0)" },
+    "secondary": { "bg": "rgb(215, 181, 185)", "color": "rgb(0, 0, 0)" },
+    "tertiary": { "bg": "rgb(234, 189, 173)", "color": "rgb(0, 0, 0)" },
+    "shared": { "border": "none", "borderRadius": "0px", "padding": "10px 24px", "fontFamily": "acumin-pro-wide-medium", "fontSize": "15px", "fontWeight": "500", "letterSpacing": "-0.27px", "textTransform": "none", "textDecoration": "none" }
+  },
+  "spacing": { "sectionPadding": "60px", "contentMaxWidth": "1200px", "navHeight": "auto" }
+}

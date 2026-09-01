@@ -1,0 +1,209 @@
+{
+  "url": "https://www.covista.com/",
+  "template": "home",
+  "documentPath": "/index",
+  "analyzedAt": "2026-09-01",
+  "notes": "Two-level analysis. Header (consent bar rc1, admin/nav rc2) and footer are auto-populated and excluded from content sections. Section selectors and hints resolved from migration-work/visual-trees.json (primary URL). No coverage gaps in page-templates.json.",
+  "sections": [
+    {
+      "id": "rc3",
+      "visualTreeId": "rc2c2c1",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.edge-to-edge.no-padding.no-max-width.layout.layout--atge-one-column:nth-of-type(1)",
+      "hint": "default-content",
+      "style": "dark (full-bleed background video/photo of clinician with dark overlay)",
+      "layout": null,
+      "overview": "Homepage hero over a video/photo background",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Large white heading 'The Talent to Transform Healthcare' with a single 'Our story' call-to-action button, overlaid on a full-width dark background video/photo"
+        }
+      ]
+    },
+    {
+      "id": "rc4",
+      "visualTreeId": "rc2c2c2",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.standard-width.p-universal-bg-color--none.overlap.pad-bottom-40-desktop.cc-bg-secondary-mobile.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "block",
+      "style": "light (cream/white stat tiles overlapping the hero)",
+      "layout": "3x1",
+      "overview": "Three headline statistics tiles",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Row of three tiles, each with an icon, a large number ('5', '26K', '300K+') and a short label ('post-secondary institutions', 'healthcare graduates a year', 'healthcare alumni practicing worldwide')"
+        }
+      ]
+    },
+    {
+      "id": "rc5",
+      "visualTreeId": "rc2c2c3",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.standard-width.p-universal-bg-color--none.pad-top-0.pad-bottom-0.p-section__align--none.edge-to-edge__mobile.layout.layout--atge-one-column",
+      "hint": "default-content",
+      "style": "accent (image on left, pink/mauve content panel on right)",
+      "layout": null,
+      "overview": "Covista Care Capacity Monitor Research feature - image + content side by side",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Two-column layout: photo of clinicians on the left, and on the right a colored panel with heading 'Covista Care Capacity Monitor Research', two paragraphs of body text, and an 'Explore the data' button"
+        }
+      ]
+    },
+    {
+      "id": "rc6",
+      "visualTreeId": "rc2c2c4",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.optimized-width.p-universal-bg-color--secondary.pad-top-0.pad-bottom-0.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "default-content",
+      "style": "light (cream secondary background)",
+      "layout": null,
+      "overview": "Our institutions intro heading and paragraph",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Centered heading 'Our institutions' followed by a centered intro paragraph"
+        }
+      ]
+    },
+    {
+      "id": "rc7",
+      "visualTreeId": "rc2c2c5",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.standard-width.p-universal-bg-color--secondary.pad-bottom-0.pad-top-0.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "block",
+      "style": "light (cream secondary background)",
+      "layout": "5x1",
+      "overview": "Row of five institution logos",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Row of five institution logo images (American University of the Caribbean, Chamberlain University, Ross University School of Medicine, Ross University School of Veterinary Medicine, Walden University)"
+        }
+      ]
+    },
+    {
+      "id": "rc8",
+      "visualTreeId": "rc2c2c6",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.optimized-width.p-universal-bg-color--secondary.pad-top-20.pad-bottom-40.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "default-content",
+      "style": "light (cream secondary background)",
+      "layout": null,
+      "overview": "Learn more call-to-action button",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Single centered 'Learn more' button"
+        }
+      ]
+    },
+    {
+      "id": "rc9",
+      "visualTreeId": "rc2c2c7",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.edge-to-edge.no-padding.no-max-width.p-universal-bg-color--none.pad-top-20-desktop.pad-bottom-40-desktop.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "block",
+      "style": "light (white)",
+      "layout": "2x1",
+      "overview": "Supporting healthcare workers nationwide - image + content side by side",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Two-column layout: photo of a healthcare worker on the left, and on the right a heading 'Supporting healthcare workers nationwide', a paragraph mentioning Covista Open Doors, and a 'Learn about our impact' button"
+        }
+      ]
+    },
+    {
+      "id": "rc10",
+      "visualTreeId": "rc2c2c8",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.edge-to-edge.no-padding.no-max-width.p-universal-bg-color--none.pad-y-0.pad-bottom-50-desktop.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "block",
+      "style": "light (white)",
+      "layout": "2x1",
+      "overview": "Careers that blend performance and purpose - content + image side by side",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Two-column layout: on the left a heading 'Careers that blend performance and purpose', a paragraph, and an 'Explore opportunities' button; on the right a photo of colleagues meeting"
+        }
+      ]
+    },
+    {
+      "id": "rc11",
+      "visualTreeId": "rc2c2c9",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__two-column.edge-to-edge.no-padding.no-max-width.layout__split--5050.sidebar-first.sidebar-left.p-universal-bg-color--secondary.pad-left-10-desktop.p-section__align--none.layout__spacing--default.no_constrain_bg_witdh.layout.layout--atge-two-column",
+      "hint": "block",
+      "style": "light (cream secondary background)",
+      "layout": "2x1",
+      "overview": "Stock information - live stock data + investor call-to-action card side by side",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Two-column layout: on the left stock data ('Stock information', 'NYSE : CVSA', timestamp, price '132.33', change), and on the right a card with photo, heading 'See the story behind the numbers', paragraph, and a 'View our financials' button"
+        }
+      ]
+    },
+    {
+      "id": "rc12",
+      "visualTreeId": "rc2c2c10",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.standard-width.p-universal-bg-color--none.pad-top-30.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "default-content",
+      "style": "light",
+      "layout": null,
+      "overview": "News and stories section heading",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Section heading 'News and stories'"
+        }
+      ]
+    },
+    {
+      "id": "rc13",
+      "visualTreeId": "rc2c2c11",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.edge-to-edge.no-padding.no-max-width.p-universal-bg-color--none.carousel-view--edge-to-edge.p-section__align--none.layout.layout--atge-one-column",
+      "hint": "block",
+      "style": "light (white)",
+      "layout": "2x2",
+      "overview": "News and stories carousel of article cards with prev/next controls",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Horizontally scrolling carousel of news article cards; each card has an image, a category/eyebrow tag (e.g. 'Covista | Chamberlain'), and a headline that links to the article. Prev/Next controls and a 'More stories' button."
+        }
+      ]
+    },
+    {
+      "id": "rc14",
+      "visualTreeId": "rc2c2c12",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container > main.page--main > div.layout-content > div.region.region__content > article.node__page.node__cv-page.node__page--full.node__cv-page--full.node.node--type-page.node--view-mode-full > div.node__content > div.t-layout__one-column.standard-width.p-universal-bg-color--none.p-section__align--none.layout.layout--atge-one-column:nth-of-type(12)",
+      "hint": "default-content",
+      "style": "light",
+      "layout": null,
+      "overview": "Closing address / company info text near footer",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Company address text ('233 S. Wacker Drive, Suite 800, Chicago, IL, 60606')"
+        }
+      ]
+    }
+  ],
+  "blockInventory": {
+    "localBlocks": [
+      "accordion", "cards", "carousel", "columns", "embed", "footer",
+      "form", "fragment", "header", "hero", "modal", "quote", "search",
+      "table", "tabs", "video"
+    ],
+    "customVariants": [],
+    "blockCollectionAvailable": [
+      { "name": "hero", "purpose": "Large heading, text, buttons for page intro, often over a background image" },
+      { "name": "cards", "purpose": "Grid of repeating items with image/icon and text" },
+      { "name": "columns", "purpose": "Side-by-side content layout (image + text, or text + text)" },
+      { "name": "carousel", "purpose": "Rotating/sliding gallery of images or content cards" },
+      { "name": "accordion", "purpose": "Expandable Q&A sections" },
+      { "name": "tabs", "purpose": "Switchable content panels" },
+      { "name": "quote", "purpose": "Highlighted testimonial or quote" },
+      { "name": "embed", "purpose": "Embedded external content or video" },
+      { "name": "table", "purpose": "Tabular data" },
+      { "name": "fragment", "purpose": "Reusable content sections" }
+    ]
+  }
+}

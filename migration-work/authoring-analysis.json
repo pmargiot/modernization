@@ -1,0 +1,241 @@
+{
+  "url": "https://www.covista.com/",
+  "template": "home",
+  "documentPath": "/index",
+  "analyzedAt": "2026-09-01",
+  "philosophy": "David's Model - prefer default content; blocks only where structure/decoration is required. hint:block sections classified as blocks per constraint; hint:default-content sections run through the typing test.",
+  "sections": [
+    {
+      "id": "rc3",
+      "hint": "default-content",
+      "style": "dark full-bleed background media",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Step 3e: background is a full-bleed dark video/photo that is part of the hero's own design (edge-to-edge, no section padding). Hero block owns its background - skip section-metadata."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Large heading + single CTA button over full-width dark background media",
+          "decision": "block",
+          "blockName": "hero-overlay",
+          "blockVariant": "hero-overlay",
+          "baseBlock": "hero",
+          "reason": "Typing test: author could type heading + link, but the full-width background media behind overlaid text requires the hero block's structure and decoration.",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc4",
+      "hint": "block",
+      "style": "light stat tiles overlapping hero",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Step 3e: single-block section; cream tile styling is the cards block's own design (tiles overlap the hero), not a section container background."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Three tiles, each icon + large number + short label",
+          "decision": "block",
+          "blockName": "cards-stats",
+          "blockVariant": "cards-stats",
+          "baseBlock": "cards",
+          "reason": "Repeating structured items (icon + number + label) - obvious cards match. Distinct repeatable stat items.",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc5",
+      "hint": "default-content",
+      "style": "accent colored content panel beside image",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Step 3e: single-block section; the colored panel is the right column's own background within the columns block, not a section-wide background."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Image on left, colored content panel on right (heading, two paragraphs, button)",
+          "decision": "block",
+          "blockName": "columns-highlight",
+          "blockVariant": "columns-highlight",
+          "baseBlock": "columns",
+          "reason": "Typing test fails: side-by-side image + content panel requires a two-column layout structure. Columns block.",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc6",
+      "hint": "default-content",
+      "style": "light cream",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Centered 'Our institutions' heading + intro paragraph",
+          "decision": "default-content",
+          "reason": "Author types a heading and a paragraph normally. Centering is a CSS/section concern."
+        }
+      ]
+    },
+    {
+      "id": "rc7",
+      "hint": "block",
+      "style": "light cream secondary background",
+      "sectionMetadata": {
+        "keep": true,
+        "reason": "Step 3e: single-block section on solid cream (secondary) background with visible section padding; the background is section container styling, not intrinsic to a logo strip. Keep section-metadata style secondary."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Row of five institution logo images",
+          "decision": "block",
+          "blockName": "cards-logos",
+          "blockVariant": "cards-logos",
+          "baseBlock": "cards",
+          "reason": "Five distinct repeatable logo items in a row - cards (image-only) pattern.",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc8",
+      "hint": "default-content",
+      "style": "light cream",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Single centered 'Learn more' button",
+          "decision": "default-content",
+          "reason": "Author types a single link. No structure required."
+        }
+      ]
+    },
+    {
+      "id": "rc9",
+      "hint": "block",
+      "style": "light white",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Step 3e: single-block section on plain white; no distinct section background - skip section-metadata."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Image left + heading/paragraph/button right",
+          "decision": "block",
+          "blockName": "columns-feature",
+          "blockVariant": "columns-feature",
+          "baseBlock": "columns",
+          "reason": "Side-by-side image + text requires two-column structure. Columns block.",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc10",
+      "hint": "block",
+      "style": "light white",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Step 3e: single-block section on plain white; no distinct section background - skip section-metadata."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Heading/paragraph/button left + image right",
+          "decision": "block",
+          "blockName": "columns-feature",
+          "blockVariant": "columns-feature",
+          "baseBlock": "columns",
+          "reason": "Side-by-side text + image requires two-column structure. Columns block (mirrored layout of rc9).",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc11",
+      "hint": "block",
+      "style": "light cream secondary background",
+      "sectionMetadata": {
+        "keep": true,
+        "reason": "Step 3e: single-block section on solid cream (secondary) background with visible padding; background is section container styling for the two-column stock layout. Keep section-metadata style secondary."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Stock data (ticker, timestamp, price, change) on left + investor CTA card (image, heading, paragraph, button) on right",
+          "decision": "block",
+          "blockName": "columns-stock",
+          "blockVariant": "columns-stock",
+          "baseBlock": "columns",
+          "reason": "Two-column side-by-side layout combining a stock data readout and a promo card. Columns block.",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc12",
+      "hint": "default-content",
+      "style": "light",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "'News and stories' section heading",
+          "decision": "default-content",
+          "reason": "Author types a heading. No structure required."
+        }
+      ]
+    },
+    {
+      "id": "rc13",
+      "hint": "block",
+      "style": "light white",
+      "sectionMetadata": {
+        "keep": false,
+        "reason": "Step 3e: single-block section on plain white; the carousel owns its layout/controls - skip section-metadata."
+      },
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Horizontally scrolling carousel of news article cards (image, category tag, headline link) with prev/next controls and a 'More stories' button",
+          "decision": "block",
+          "blockName": "carousel-news",
+          "blockVariant": "carousel-news",
+          "baseBlock": "carousel",
+          "reason": "Rotating/sliding gallery of content cards with navigation controls - carousel block. Obvious match.",
+          "match": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "rc14",
+      "hint": "default-content",
+      "style": "light",
+      "sequences": [
+        {
+          "sequence": 1,
+          "description": "Company address text",
+          "decision": "default-content",
+          "reason": "Author types an address paragraph normally."
+        }
+      ]
+    }
+  ],
+  "blocksToUse": ["hero-overlay", "cards-stats", "cards-logos", "columns-highlight", "columns-feature", "columns-stock", "carousel-news"],
+  "variantMapping": {
+    "hero": "hero-overlay",
+    "cards@rc4": "cards-stats",
+    "cards@rc7": "cards-logos",
+    "columns@rc5": "columns-highlight",
+    "columns@rc9": "columns-feature",
+    "columns@rc10": "columns-feature",
+    "columns@rc11": "columns-stock",
+    "carousel": "carousel-news"
+  },
+  "step3eValidatedSections": ["rc3", "rc4", "rc5", "rc7", "rc9", "rc10", "rc11", "rc13"]
+}

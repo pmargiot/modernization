@@ -1,0 +1,15 @@
+/* cards-logos — extracted from source computed styles */
+/* Grid container (.c-universal-grid__main) */
+.cards-logos-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 256.8px x5 desktop */
+  column-gap: 16px;
+  row-gap: 24px;
+  align-items: center; /* c-universal-grid--cont-vert-align-mid */
+}
+/* Card link */
+.cards-logos-card { width: 257px; height: 236px; padding: 16px; display: flex; flex-direction: column; justify-content: center; }
+/* Image */
+.cards-logos-img { width: 225px; height: 204px; object-fit: fill; max-width: 100%; max-height: 100%; }
+/* Section bg: rgb(255,249,245) secondary (from section, block transparent) */
+/* Mobile: stack (c-universal-grid__m-layout--stack) */

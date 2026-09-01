@@ -1,0 +1,17 @@
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: acumin-pro-wide-medium, Helvetica, Arial, sans-serif;
+  line-height: 48px;
+  letter-spacing: -0.6px;
+  color: rgb(0, 0, 0);
+  margin: 33.2px 0px;
+}
+
+p {
+  font-size: 18px;
+  font-family: acumin-pro-wide-light, Helvetica, Arial, sans-serif;
+  line-height: 29.88px;
+  color: rgb(0, 0, 0);
+  margin: 18px 0px;
+}

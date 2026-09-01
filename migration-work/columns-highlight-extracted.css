@@ -1,0 +1,14 @@
+/* Extracted computed styles — covista.com columns-highlight (feature card) */
+/* container (.pad-y-60-desktop.cc-bg-palette-014) */
+.container { display: flex; align-items: center; justify-content: center; background-color: rgb(230,213,215); padding: 60px 0; }
+/* content panel container (.c-card__item--content-container) */
+.content { display: flex; flex-direction: column; padding: 60px 55px; background-color: rgb(230,213,215); }
+/* image */
+img { object-fit: cover; }
+/* h2 (inner span colored) */
+h2 { font-size: 40px; font-weight: 500; font-family: acumin-pro-wide-medium; line-height: 48px; letter-spacing: -0.6px; margin: 0 0 33.2px; }
+h2 span { color: rgb(130,64,76); }
+/* p */
+p { font-size: 18px; font-family: acumin-pro-wide-light; line-height: 29.88px; color: rgb(0,0,0); margin: 18px 0; }
+/* button (a.e-btn--secondary) */
+a.button { background-color: rgb(215,181,185); color: rgb(0,0,0); padding: 5px 16px; font-size: 15px; font-weight: 500; font-family: acumin-pro-wide-medium; letter-spacing: -0.27px; border-radius: 0; }
