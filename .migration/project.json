@@ -1,0 +1,15 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "modernization": {
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+      "previewOrg": "pmargiot",
+      "previewSite": "modernization",
+      "contentHostUrl": "author-p23858-e855052.adobeaemcloud.com",
+      "aemSitePath": "/content/modernization",
+      "aemAssetsFolderPath": "/content/dam/modernization",
+      "aemSiteName": "modernization",
+      "aemSiteTitle": "Modernization"
+    }
+  }
+}

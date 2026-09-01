@@ -1,0 +1,123 @@
+/* Block: columns-feature
+ * Full-bleed two-column image + text feature on a white background.
+ * Values extracted from https://www.covista.com/ (see migration-work/columns-feature-extracted.css).
+ * Two instances: default = image left / text right; every 2nd instance is
+ * mirrored (image right / text left) via the .columns-feature-reversed class
+ * added in columns-feature.js — matching the source's alternating layout.
+ */
+
+/* Full-bleed: escape the section max-width / horizontal padding.
+   Specificity must beat `main > .section > div` from styles.css. */
+main .section > .columns-feature-wrapper {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Block shell */
+.columns-feature.block {
+  margin: 0;
+}
+
+/* Row: mobile-first stacked (image above text) --------------------------- */
+.columns-feature > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media column */
+.columns-feature > div > .columns-feature-img-col {
+  order: 0;
+  padding: 0;
+}
+
+.columns-feature > div > .columns-feature-img-col picture {
+  display: block;
+}
+
+.columns-feature img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text / content column */
+.columns-feature > div > div {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 16px 0;
+}
+
+.columns-feature h2 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xl); /* 40px desktop / 28px mobile */
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  color: var(--text-color); /* #000 */
+}
+
+.columns-feature p {
+  margin: 18px 0 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m); /* 18px */
+  line-height: 1.66;
+  color: var(--text-color); /* #000 */
+}
+
+/* CTA — source uses the primary (sage) button palette (global a.button). */
+.columns-feature p.button-container {
+  margin: 24px 0 0;
+}
+
+.columns-feature a.button:any-link {
+  margin: 0;
+  padding: 10px 24px;
+  border-radius: 0;
+  background-color: var(--button-primary-bg); /* rgb(201 211 204) */
+  color: var(--button-text-color); /* #000 */
+  font-family: var(--heading-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.27px;
+}
+
+/* Desktop: two-column edge-to-edge -------------------------------------- */
+@media (width >= 900px) {
+  .columns-feature > div {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* Media column ~40% (source: 570 / 1440) */
+  .columns-feature > div > .columns-feature-img-col {
+    flex: 0 0 40%;
+    max-width: 40%;
+    order: unset;
+  }
+
+  .columns-feature > div > .columns-feature-img-col picture {
+    height: 100%;
+  }
+
+  /* Content column fills the rest with generous internal padding
+     (source: 0 195px 0 133px on a 871px column). */
+  .columns-feature > div > div {
+    flex: 1 1 60%;
+    order: unset;
+    padding: 40px 9vw 40px 5vw;
+  }
+
+  /* Mirrored instance: image right / text left (source c-card--reverse-cols) */
+  .columns-feature.columns-feature-reversed > div {
+    flex-direction: row-reverse;
+  }
+
+  .columns-feature.columns-feature-reversed > div > div {
+    padding: 40px 5vw 40px 9vw;
+  }
+}

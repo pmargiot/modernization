@@ -1,0 +1,128 @@
+/* Block: hero-overlay
+ * Full-bleed dark background image with a left-anchored dark gradient,
+ * white overlaid heading and a light primary CTA.
+ * Values extracted from https://www.covista.com/ (see migration-work/hero-overlay-extracted.css).
+ */
+
+/* Full-bleed: escape the section max-width / padding */
+.hero-overlay-container {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-overlay-wrapper {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Block shell -------------------------------------------------------------- */
+.hero-overlay.block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-height: 420px;
+  padding: 48px 24px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* Left-to-right dark gradient over the image (source: 92.51deg) */
+.hero-overlay.block::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image: linear-gradient(
+    92.51deg,
+    rgb(0 0 0 / 50%) 25.26%,
+    rgb(0 0 0 / 2%) 61.29%,
+    rgb(0 0 0 / 0%) 95.23%
+  );
+  pointer-events: none;
+}
+
+/* Content row (row 2) ----------------------------------------------------- */
+.hero-overlay.block > div:last-child {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Background image row (row 1) -------------------------------------------- */
+.hero-overlay.block > div:first-child {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  margin: 0;
+}
+
+.hero-overlay.block > div:first-child > div,
+.hero-overlay.block > div:first-child p {
+  margin: 0;
+  height: 100%;
+}
+
+.hero-overlay.block picture {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-overlay.block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+/* Content elements -------------------------------------------------------- */
+.hero-overlay.block h1 {
+  margin: 0;
+  max-width: 12em;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xxl);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: rgb(255 249 245);
+}
+
+.hero-overlay.block .button-container {
+  margin: 28px 0 0;
+}
+
+/* CTA — light primary button, square, medium weight */
+.hero-overlay.block a.button:any-link {
+  margin: 0;
+  padding: 10px 24px;
+  border-radius: 0;
+  font-family: var(--heading-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.27px;
+  background-color: var(--button-primary-bg);
+  color: #000;
+}
+
+/* Desktop ----------------------------------------------------------------- */
+@media (width >= 900px) {
+  .hero-overlay.block {
+    min-height: 700px;
+    padding: 80px 44px;
+  }
+
+  .hero-overlay.block h1 {
+    max-width: 11em;
+  }
+
+  .hero-overlay.block .button-container {
+    margin-top: 40px;
+  }
+}

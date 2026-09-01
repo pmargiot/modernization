@@ -1,0 +1,178 @@
+/* Block: columns-stock — Covista stock readout + investor promo card.
+   Values extracted from source computed styles. */
+
+.columns-stock {
+  --stock-accent: rgb(184 83 46);
+}
+
+.columns-stock > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ---------- LEFT: stock ticker readout ---------- */
+.columns-stock .columns-stock-info h2 {
+  margin: 0 0 24px;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  font-size: var(--heading-font-size-xl);
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  color: var(--stock-accent);
+}
+
+.columns-stock .columns-stock-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.columns-stock .columns-stock-exchange {
+  margin: 0;
+  font-size: var(--body-font-size-m);
+  color: var(--text-color);
+}
+
+.columns-stock .columns-stock-delay {
+  text-align: right;
+}
+
+.columns-stock .columns-stock-delay p {
+  margin: 0;
+  font-size: var(--body-font-size-m);
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.columns-stock .columns-stock-price {
+  margin: 12px 0 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--stock-accent);
+  font-family: albiona-light, Rockwell, "Josefin Slab", serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--stock-accent);
+}
+
+.columns-stock .columns-stock-price::before {
+  content: "$";
+}
+
+.columns-stock .columns-stock-change {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.columns-stock .columns-stock-change-label {
+  margin: 0;
+  font-size: var(--body-font-size-m);
+  color: var(--text-color);
+}
+
+.columns-stock .columns-stock-change-value {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: var(--body-font-size-m);
+  color: var(--text-color);
+}
+
+/* ---------- RIGHT: investor promo card ---------- */
+.columns-stock .columns-stock-promo {
+  background-color: #fff;
+  padding: 32px;
+}
+
+.columns-stock .columns-stock-promo-img {
+  margin: 0 0 20px;
+}
+
+.columns-stock .columns-stock-promo-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.columns-stock .columns-stock-promo p {
+  margin: 0 0 12px;
+  font-size: var(--body-font-size-m);
+  line-height: 1.66;
+  color: var(--text-color);
+}
+
+.columns-stock .columns-stock-promo p strong {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: var(--body-font-size-m);
+}
+
+/* Button — peach tertiary with a trailing orange arrow box (matches source). */
+.columns-stock .columns-stock-promo .button-container {
+  display: flex;
+  align-items: stretch;
+  margin: 20px 0 0;
+}
+
+.columns-stock .columns-stock-promo a.button:any-link {
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: var(--button-tertiary-bg);
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.27px;
+  line-height: 1.4;
+}
+
+.columns-stock .columns-stock-promo .button-container::after {
+  content: "→";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  background-color: var(--stock-accent);
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* ---------- Desktop: 50/50 two-column split ---------- */
+@media (width >= 900px) {
+  .columns-stock > div {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .columns-stock > div > div {
+    flex: 1;
+  }
+
+  .columns-stock .columns-stock-info h2 {
+    font-size: 40px;
+  }
+
+  /* Promo card: portrait floats to the right, text wraps beside it. */
+  .columns-stock .columns-stock-promo {
+    padding: 40px;
+  }
+
+  .columns-stock .columns-stock-promo-img {
+    float: right;
+    width: 42%;
+    margin: -72px -72px 16px 24px;
+  }
+
+  .columns-stock .columns-stock-promo .button-container {
+    clear: both;
+  }
+}

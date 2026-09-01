@@ -1,0 +1,183 @@
+/* Block: carousel-news — Covista "News and stories" horizontal card scroller.
+   Each slide is a card: 1:1 image on top, eyebrow tag line (link color),
+   and a serif headline link. Prev/Next arrows sit top-right above the cards. */
+
+.carousel-news .carousel-news-slides-container {
+  position: relative;
+}
+
+/* --- scroll track --- */
+.carousel-news .carousel-news-slides,
+.carousel-news .carousel-news-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-news .carousel-news-slides {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: auto hidden;
+  padding-bottom: 4px;
+}
+
+.carousel-news .carousel-news-slides::-webkit-scrollbar {
+  display: none;
+}
+
+/* --- card --- */
+.carousel-news .carousel-news-slide {
+  flex: 0 0 78%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 20px;
+  position: relative;
+  min-height: 0;
+  width: auto;
+  background-color: transparent;
+}
+
+/* --- card image (1:1) --- */
+.carousel-news .carousel-news-slide .carousel-news-slide-image {
+  margin: 0;
+}
+
+.carousel-news .carousel-news-slide .carousel-news-slide-image p {
+  margin: 0;
+}
+
+.carousel-news .carousel-news-slide .carousel-news-slide-image picture {
+  display: block;
+  position: static;
+  inset: auto;
+}
+
+.carousel-news .carousel-news-slide .carousel-news-slide-image picture > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* --- card content --- */
+.carousel-news .carousel-news-slide .carousel-news-slide-content {
+  z-index: auto;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: transparent;
+  position: relative;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+/* eyebrow tag line */
+.carousel-news .carousel-news-slide .carousel-news-slide-content p {
+  margin: 0;
+  font-family: acumin-pro-wide-reg, var(--body-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.27px;
+  color: var(--link-color);
+}
+
+/* headline link */
+.carousel-news .carousel-news-slide-content h3 {
+  margin: 0;
+  font-family: albiona-light, Rockwell, "Josefin Slab", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.27px;
+  color: var(--text-color);
+}
+
+.carousel-news .carousel-news-slide-content h3 a:any-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.carousel-news .carousel-news-slide-content h3 a:hover {
+  text-decoration: underline;
+}
+
+/* --- hide the dot indicators (source uses arrows only) --- */
+.carousel-news nav[aria-label],
+.carousel-news .carousel-news-slide-indicators {
+  display: none;
+}
+
+/* --- prev / next arrows: small, black, top-right above the cards --- */
+.carousel-news .carousel-news-navigation-buttons {
+  position: absolute;
+  top: -52px;
+  right: 0;
+  left: auto;
+  transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  z-index: 2;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-news .carousel-news-navigation-buttons button {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  transition: opacity 0.2s;
+}
+
+.carousel-news .carousel-news-navigation-buttons button:hover,
+.carousel-news .carousel-news-navigation-buttons button:focus-visible {
+  background-color: transparent;
+  opacity: 0.6;
+}
+
+.carousel-news .carousel-news-navigation-buttons button::after {
+  display: block;
+  content: '';
+  border: 2px solid var(--text-color);
+  border-bottom: 0;
+  border-left: 0;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 3px);
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-news .carousel-news-navigation-buttons button.slide-next::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+  left: calc(50% - 3px);
+}
+
+/* --- desktop --- */
+@media (width >= 900px) {
+  .carousel-news .carousel-news-slide {
+    flex: 0 0 364px;
+  }
+
+  .carousel-news .carousel-news-navigation-buttons {
+    top: -60px;
+  }
+}
