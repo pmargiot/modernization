@@ -1,0 +1,40 @@
+/*
+ * brand.css — Covista design tokens (extracted from https://www.covista.com/)
+ */
+
+:root {
+  /* fonts */
+  --heading-font-family: "acumin-pro-wide-medium", helvetica, arial, sans-serif;
+  --body-font-family: "acumin-pro-wide-light", helvetica, arial, sans-serif;
+
+  /* colors */
+  --background-color: #fff;
+  --text-color: #000;
+  --link-color: rgb(130 64 76);
+  --link-hover-color: rgb(71 107 82);
+
+  /* section background variants */
+  --secondary-color: rgb(255 249 245);
+  --accent-color: rgb(230 213 215);
+  --dark-color: #000;
+  --light-color: rgb(255 249 245);
+
+  /* brand button palettes */
+  --button-primary-bg: rgb(201 211 204);
+  --button-secondary-bg: rgb(215 181 185);
+  --button-tertiary-bg: rgb(234 189 173);
+  --button-text-color: #000;
+
+  /* spacing */
+  --section-padding: 60px;
+  --content-max-width: 1200px;
+  --nav-height: 96px;
+
+  /* heading sizes (desktop) */
+  --heading-size-xxl: 48px;
+  --heading-size-xl: 40px;
+  --heading-size-l: 24px;
+  --heading-size-m: 22px;
+  --heading-size-s: 20px;
+  --heading-size-xs: 18px;
+}

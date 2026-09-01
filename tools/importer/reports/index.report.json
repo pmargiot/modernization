@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.covista.com/",
+  "path": "index",
+  "timestamp": "2026-09-01T01:58:18.170Z",
+  "title": "Home | Covista",
+  "template": "home",
+  "blocks": [
+    "hero-overlay",
+    "cards-stats",
+    "columns-highlight",
+    "cards-logos",
+    "columns-feature",
+    "columns-feature",
+    "columns-stock",
+    "carousel-news"
+  ]
+}

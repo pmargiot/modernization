@@ -1,0 +1,37 @@
+{
+  "variantName": "carousel-news",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-09-01T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.covista.com/",
+    "originPage": "Covista homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "news",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "sliding gallery of news cards (image + category tag + headline link) with prev/next controls",
+    "buttonCount": 1,
+    "imageCount": 6
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news / articles / stories carousels with images and headlines",
+      "horizontally scrolling content card galleries with navigation controls"
+    ],
+    "notSuitableFor": [
+      "static card grids",
+      "single hero banners"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-01T00:00:00.000Z"
+  }
+}

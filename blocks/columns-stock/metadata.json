@@ -1,0 +1,37 @@
+{
+  "variantName": "columns-stock",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-09-01T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.covista.com/",
+    "originPage": "Covista homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "data",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "stock data readout beside an investor CTA card (image, heading, paragraph, button)",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "stock / financial data displays paired with a promo card",
+      "data readout + call-to-action two-column layouts on a secondary background"
+    ],
+    "notSuitableFor": [
+      "plain feature image + text rows",
+      "accent highlight panels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-01T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,48 @@
+/* Block: cards-logos — a horizontal row of institution logos on the
+   secondary (cream) section background. Values extracted from source
+   computed styles at https://www.covista.com/ */
+
+.cards-logos > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px 16px;
+  align-items: center;
+}
+
+.cards-logos > ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.cards-logos > ul > li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.cards-logos > ul > li picture {
+  display: block;
+  line-height: 0;
+}
+
+.cards-logos > ul > li img {
+  width: 100%;
+  height: auto;
+  max-height: 204px;
+  object-fit: contain;
+}
+
+@media (width >= 900px) {
+  .cards-logos > ul {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

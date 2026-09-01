@@ -1,0 +1,96 @@
+/* columns-highlight — image + mauve accent panel feature (extracted from covista.com) */
+
+/* row: mobile-first stacked, image above text panel */
+.columns-highlight > div {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--accent-color); /* rgb(230 213 215) */
+}
+
+/* image column */
+.columns-highlight > div > .columns-highlight-img-col {
+  order: 0;
+  padding: 0;
+}
+
+.columns-highlight > div > .columns-highlight-img-col picture {
+  display: block;
+  height: 100%;
+}
+
+.columns-highlight img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* text/content column */
+.columns-highlight > div > div {
+  order: 1;
+  padding: 48px 32px;
+}
+
+.columns-highlight h2 {
+  margin: 0 0 24px;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xl);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  color: var(--link-color); /* rgb(130 64 76) */
+}
+
+.columns-highlight p {
+  margin: 18px 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m); /* 18px */
+  line-height: 1.66;
+  color: var(--text-color);
+}
+
+/* CTA — source uses the secondary (mauve) button palette */
+.columns-highlight p.button-container {
+  margin: 24px 0 0;
+}
+
+.columns-highlight a.button:any-link {
+  margin: 0;
+  padding: 10px 24px;
+  border-radius: 0;
+  background-color: var(--button-secondary-bg); /* rgb(215 181 185) */
+  color: var(--button-text-color);
+  font-family: var(--heading-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.27px;
+}
+
+@media (width >= 900px) {
+  .columns-highlight > div {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .columns-highlight > div > div {
+    flex: 1 1 50%;
+    order: unset;
+  }
+
+  .columns-highlight > div > .columns-highlight-img-col {
+    order: unset;
+  }
+
+  .columns-highlight > div > div:not(.columns-highlight-img-col) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 55px;
+  }
+
+  .columns-highlight h2 {
+    font-size: 40px;
+  }
+}
